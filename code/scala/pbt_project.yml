@@ -23,6 +23,16 @@ workflows:
     datasets:
       inputs: []
       outputs: []
+  workflows/W1:
+    name: W1
+    description: Really solid info
+    author: trinh.kuhn@hotmail.com
+    mode: batch
+    language: scala
+    createdAt: '2022-02-09 07:29:24'
+    datasets:
+      inputs: []
+      outputs: []
   workflows/Rueben_Schneider:
     name: Rueben_Schneider
     description: null
@@ -74,4 +84,9 @@ workflows:
       inputs: []
       outputs: []
 datasets: {}
-schedules: {}
+schedules:
+  schedules/Patricia_Kautzer:
+    name: Patricia_Kautzer
+    description: Really solid info
+    createdAt: '2022-02-09 07:29:24'
+    author: trinh.kuhn@hotmail.com
